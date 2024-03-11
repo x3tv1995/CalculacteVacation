@@ -8,7 +8,6 @@ class VacationRequestTest {
 
     @Test
     public void testConstructorWithParameters() {
-        // Arrange
         double expectedSalary = 1000.0;
         int expectedDays = 20;
         VacationRequest request = new VacationRequest(expectedSalary, expectedDays);
